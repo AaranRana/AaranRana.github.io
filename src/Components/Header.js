@@ -1,23 +1,23 @@
 const Header = () => {
   return (
-    <header className="bg-blue-600 text-white p-4 shadow-md">
+    <header className="bg-orange-400 text-amber-950 p-4 shadow-md">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">My App</h1>
+        <h1 className="text-4xl font-extrabold">Aaran Rana</h1>
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <a href="/" className="hover:text-gray-200">
-                Home
+              <a href="/bread" className="hover:text-gray-200">
+                Slice of Bread
               </a>
             </li>
             <li>
-              <a href="/about" className="hover:text-gray-200">
-                About
+              <a href="/portfolio" className="hover:text-gray-200">
+                The Portfolio
               </a>
             </li>
             <li>
               <a href="/contact" className="hover:text-gray-200">
-                Contact
+                Contact Me!
               </a>
             </li>
           </ul>
