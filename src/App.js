@@ -1,8 +1,7 @@
 import React from 'react';
 import "./index.css";
+import Home from './Components/Home.js';
 import Header from './Components/Header.js';
-import About from './Components/About.js';
-import Projects from './Components/Projects.js';
 import Footer from './Components/Footer.js';
 
 function App() {
@@ -10,8 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <About />
-        <Projects />
+        <Home />
       </main>
       <Footer />
     </div>
